@@ -1,8 +1,7 @@
 # next-async
-> Async/parallel for next
 
+> Async/parallel for next
 
 ## resources:
 
-## todos:
-- [ ] unit test case
+- thanks to `wepy` mq-request
