@@ -1,6 +1,7 @@
 {
   "name": "next-async",
-  "description": "Async for next.",
+  "version": "0.0.1",
+  "description": "Async/parallel for next",
   "main": "dist/next-async.js",
   "authors": [
     "afei"
@@ -19,6 +20,7 @@
     "bower_components",
     "test",
     "tests",
+    "build",
     "src",
     "gulp",
     "gulpfile.js"
