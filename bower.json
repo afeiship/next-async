@@ -1,19 +1,13 @@
 {
-  "name": "next-async",
-  "version": "0.0.1",
-  "description": "Async/parallel for next",
-  "main": "dist/next-async.js",
-  "authors": [
-    "afei"
-  ],
+  "name": "next-weapp-parallel",
+  "version": "1.0.0",
+  "description": "Async/parallel for weapp based on next.",
+  "main": "dist/next-weapp-parallel.js",
+  "authors": ["afei"],
   "license": "MIT",
-  "keywords": [
-    "next"
-  ],
-  "homepage": "https://github.com/afeiship/next-async",
-  "moduleType": [
-    "amd"
-  ],
+  "keywords": ["next"],
+  "homepage": "https://github.com/afeiship/next-weapp-parallel",
+  "moduleType": ["amd"],
   "ignore": [
     "**/.*",
     "node_modules",

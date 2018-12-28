@@ -1,14 +1,14 @@
 (function() {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('next-js-core2');
+  var wx = global.wx;
 
   var NxAsync = nx.declare('nx.WeappParallel', {
     statics: {
       map: {},
       mq: [],
       running: [],
-      callback: wx.request,
-      parallel: function(inOptions) {
+      request: function(inOptions) {
         this.push(inOptions);
         this.next();
       },
@@ -36,7 +36,7 @@
             self.next();
           };
           this.running.push(obj.t);
-          return this.callback(obj);
+          return wx.request(obj);
         }
       }
     }

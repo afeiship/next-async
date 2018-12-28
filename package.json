@@ -1,8 +1,8 @@
 {
-  "name": "next-async",
+  "name": "next-weapp-parallel",
   "version": "1.0.0",
-  "description": "Async/parallel for next",
-  "homepage": "https://github.com/afeiship/next-async",
+  "description": "Async/parallel for weapp based on next.",
+  "homepage": "https://github.com/afeiship/next-weapp-parallel",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -12,7 +12,7 @@
     "test": "mocha",
     "version": "gulp bump"
   },
-  "main": "dist/next-async.js",
+  "main": "dist/next-weapp-parallel.js",
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",

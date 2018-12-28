@@ -1,6 +1,6 @@
-# next-async
+# next-weapp-parallel
 
-> Async/parallel for next
+> Async/parallel for weapp based on next.
 
 ## resources:
 
