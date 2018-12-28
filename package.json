@@ -1,6 +1,6 @@
 {
   "name": "next-async",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Async/parallel for next",
   "homepage": "https://github.com/afeiship/next-async",
   "author": {
@@ -21,10 +21,10 @@
     "gulp-concat": "^2.6.0",
     "gulp-load-plugins": "^1.2.0",
     "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
     "gulp-size": "^2.1.0",
     "gulp-uglify": "^2.1.2",
     "yargs": "^4.7.1",
-    "prettier": "^1.14.3",
     "mocha": "^3.5.0"
   },
   "dependencies": {

@@ -1,19 +1,21 @@
-var assert = require('assert');
-var nx = require('next-js-core2');
-require('../src/next-async');
+(function () {
+  var assert = require('assert');
+  var nx = require('next-js-core2');
+  var NxAsync = require('../src/next-async');
 
-describe('next/async', function () {
+  describe('NxAsync.methods', function () {
+    it('json/urlencoded', function () {
+      var data = {
+        key: 1,
+        value: 2
+      };
+      // console.log(rs1, rs2);
 
-  it('nx.async', function () {
-    var obj1 = {name: 'fei'};
-    var obj2 = {email: '1290657123@qq.com'};
+      // assert.equal(rs1, '{"key":1,"value":2}');
+      // assert.equal(rs2, 'key=1&value=2');
 
-    var result = {};
-
-    nx.async(result, obj1, obj2);
-
-    assert.equal(result.name, obj1.name);
-    assert.equal(result.email, obj2.email);
+    });
   });
 
-});
+
+}());
