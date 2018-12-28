@@ -3,7 +3,7 @@
   var nx = global.nx || require('next-js-core2');
   var wx = global.wx;
 
-  var NxAsync = nx.declare('nx.WeappParallel', {
+  var NxWeappParallel = nx.declare('nx.WeappParallel', {
     statics: {
       map: {},
       mq: [],
@@ -43,6 +43,6 @@
   });
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = NxAsync;
+    module.exports = NxWeappParallel;
   }
 })();
