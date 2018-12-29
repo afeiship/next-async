@@ -27,16 +27,16 @@
         if (this.mq.length === 0) return;
         if (this.running.length < this.MAX_REQUEST - 1) {
           var firstOne = this.mq.shift();
-          var obj = this.map[firstOne];
-          var oldComplete = obj.complete;
-          obj.complete = function() {
-            self.running.splice(self.running.indexOf(obj.t), 1);
-            delete self.map[obj.t];
-            oldComplete && oldComplete.apply(obj, arguments);
+          var options = this.map[firstOne];
+          var oldComplete = options.complete;
+          options.complete = function() {
+            self.running.splice(self.running.indexOf(options.t), 1);
+            delete self.map[options.t];
+            oldComplete && oldComplete.apply(options, arguments);
             self.next();
           };
-          this.running.push(obj.t);
-          return wx.request(obj);
+          this.running.push(options.t);
+          return wx.request(options);
         }
       }
     }
